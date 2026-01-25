@@ -1,0 +1,21 @@
+# Python junk
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (Do NOT upload this)
+venv/
+env/
+.env
+
+# VS Code settings (optional, but good for teams)
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets (Too big for GitHub)
+*.csv
+*.zip
+*.tar.gz
+/data/
+/models/
