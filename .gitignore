@@ -4,6 +4,7 @@ __pycache__/
 
 # Virtual Environment (Do NOT upload this)
 venv/
+.venv/ 
 env/
 .env
 
