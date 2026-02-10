@@ -32,7 +32,7 @@ model = joblib.load(model_path)
 print("Model and data loaded successfully. Starting SHAP analysis...")
 
 # --- 2. INITIALIZE SHAP EXPLAINER ---
-# TreeExplainer is specifically optimized for XGBoost/Random Forest
+# TreeExplainer is specifically optimized for XGBoost
 explainer = shap.TreeExplainer(model)
 shap_values = explainer.shap_values(X_test)
 
